@@ -73,10 +73,10 @@ angular.module('starter.services', [])
     all: function() {
       return chickens;
     },
-    remove: function(chat) {
+    remove: function(chicken) {
       chickens.splice(chickens.indexOf(chicken), 1);
     },
-    get: function(chatId) {
+    get: function(chickenId) {
       for (var i = 0; i < chickens.length; i++) {
         if (chickens[i].id === parseInt(chickenId)) {
           return chickens[i];

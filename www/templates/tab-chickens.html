@@ -1,7 +1,7 @@
 <ion-view view-title="Chickens">
   <ion-content>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chicken in chickens" type="item-text-wrap" href="#/tab/chickens/{{chicken.id}}">
+      <ion-item class="item-remove-animate item-thumbnail-left item-icon-right" ng-repeat="chicken in chickens" type="item-text-wrap" href="#/tab/chickens/{{chicken.id}}">
         <img ng-src="{{chicken.face}}" height="250px" width="250px">
         <h3>{{chicken.name}}</h3>
         <i class="icon ion-chevron-right icon-accessory"></i>
